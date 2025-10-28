@@ -24,14 +24,14 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="#research"
-            className="bg-gold text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gold-600 transition-all transform hover:scale-105 inline-flex items-center justify-center"
+            className="bg-gold text-primary px-8 py-4 text-lg font-semibold hover:bg-gold-600 transition-all transform hover:scale-105 inline-flex items-center justify-center"
           >
             Explore Our Research
             <ArrowRight className="ml-2 h-5 w-5" />
           </a>
           <a
             href="#contact"
-            className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-primary transition-all transform hover:scale-105 inline-flex items-center justify-center"
+            className="bg-transparent border-2 border-white text-white px-8 py-4 text-lg font-semibold hover:bg-white hover:text-primary transition-all transform hover:scale-105 inline-flex items-center justify-center"
           >
             Partner With Us
           </a>
