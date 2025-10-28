@@ -1,9 +1,9 @@
-import MaintenancePage from './components/MaintenancePage'
+import Home from './pages/Home'
 import './App.css'
 
 function App() {
   return (
-    <MaintenancePage />
+    <Home />
   )
 }
 
