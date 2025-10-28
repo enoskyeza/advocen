@@ -22,12 +22,32 @@
   .gradient-accent {
     background: linear-gradient(135deg, #f5f5dc 0%, #d4af37 100%);
   }
+
+  /* Section Typography */
+  .section-subtitle {
+    @apply text-gold text-lg font-semibold uppercase tracking-wide;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-semibold text-primary leading-tight;
+  }
 }
 
 @layer utilities {
   /* Custom utility classes */
   .text-balance {
     text-wrap: balance;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
 }
 
@@ -43,6 +63,15 @@
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes pulse-slow {
   0%, 100% {
     opacity: 1;
@@ -54,6 +83,10 @@
 
 .animate-fade-in-up {
   animation: fadeInUp 0.8s ease-out;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in;
 }
 
 .animate-pulse-slow {
