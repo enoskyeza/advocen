@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#0a3d62',
+          50: '#e6f0f7',
+          100: '#cce1ef',
+          200: '#99c3df',
+          300: '#66a5cf',
+          400: '#3387bf',
+          500: '#0a3d62',
+          600: '#08314e',
+          700: '#06253b',
+          800: '#041927',
+          900: '#020c14',
+        },
+        accent: {
+          DEFAULT: '#f5f5dc',
+          50: '#fefef9',
+          100: '#fdfdf3',
+          200: '#fbfbe7',
+          300: '#f9f9db',
+          400: '#f7f7cf',
+          500: '#f5f5dc',
+          600: '#c4c4b0',
+          700: '#939384',
+          800: '#626258',
+          900: '#31312c',
+        },
+        beige: '#f5f5dc',
+        navy: '#0a3d62',
+        // Complementary colors
+        gold: {
+          DEFAULT: '#d4af37',
+          50: '#fdfbf0',
+          100: '#fbf7e0',
+          200: '#f7efc1',
+          300: '#f3e7a2',
+          400: '#efdf83',
+          500: '#d4af37',
+          600: '#aa8c2c',
+          700: '#7f6921',
+          800: '#554616',
+          900: '#2a230b',
+        },
+        teal: {
+          DEFAULT: '#2c7a7b',
+          50: '#ebf8f8',
+          100: '#d7f1f1',
+          200: '#afe3e3',
+          300: '#87d5d5',
+          400: '#5fc7c7',
+          500: '#2c7a7b',
+          600: '#236262',
+          700: '#1a4949',
+          800: '#123131',
+          900: '#091818',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        serif: ['Merriweather', 'Georgia', 'serif'],
+      },
+    },
+  },
+  plugins: [],
+}

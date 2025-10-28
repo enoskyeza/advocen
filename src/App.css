@@ -1,0 +1,23 @@
+/* Additional custom styles for App component */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5dc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a3d62;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #08314e;
+}

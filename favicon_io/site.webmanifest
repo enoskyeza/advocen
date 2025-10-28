@@ -1,0 +1,22 @@
+{
+  "name": "Advocen Initiative",
+  "short_name": "Advocen",
+  "description": "Evidence-Based Policy, Health Law, and Inclusive Development in Uganda",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0a3d62",
+  "background_color": "#f5f5dc",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}
