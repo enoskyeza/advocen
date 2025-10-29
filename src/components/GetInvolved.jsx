@@ -44,7 +44,7 @@ export default function GetInvolved() {
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: `url('https://images.pexels.com/photos/7688159/pexels-photo-7688159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+              backgroundImage: `url('/teamwork.jpg')`,
             }}
           >
             {/* Overlay for better text readability if needed */}

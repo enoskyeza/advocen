@@ -14,8 +14,8 @@ export default function ImageStrip() {
       alt: 'Group Photo'
     },
     { 
-      url: 'https://images.pexels.com/photos/8422087/pexels-photo-8422087.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Healthcare Impact'
+      url: '/images/strip/research.jpg',
+      alt: 'Research'
     },
     { 
       url: 'https://images.pexels.com/photos/6646917/pexels-photo-6646917.jpeg?auto=compress&cs=tinysrgb&w=800',
