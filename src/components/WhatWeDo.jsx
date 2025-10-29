@@ -42,9 +42,9 @@ export default function WhatWeDo() {
           <p className="section-subtitle mb-4">
             What We Do
           </p>
-          <h2 className="section-title max-w-3xl mx-auto">
-            Our research and advocacy span key sectors, driving evidence-based policy reform across Uganda
-          </h2>
+          <h2 className="section-title max-w-3xl mx-auto mb-4">
+ Our research and advocacy cut across key sectors that shape people’s lives every day.</h2>
+
         </div>
 
         {/* Focus Area Cards Grid */}

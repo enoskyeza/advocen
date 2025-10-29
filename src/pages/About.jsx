@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
-import AboutSection from '../components/AboutSection';
+import PageHeader from '../components/PageHeader';
+import AboutContent from '../components/AboutContent';
 import Footer from '../components/Footer';
 
 export default function About() {
@@ -7,7 +8,12 @@ export default function About() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <main>
-        <AboutSection />
+        <PageHeader
+          image="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg"
+          title="About Advocen Initiatives"
+          subtitle="Advancing evidence-based policy for a just, healthy and prosperous Uganda"
+        />
+        <AboutContent />
       </main>
       <Footer />
     </div>
