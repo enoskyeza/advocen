@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script to set up assets in the public folder
-echo "Setting up Advocen Initiative website assets..."
+echo "Setting up Advocen Initiatives website assets..."
 
 # Create public directory if it doesn't exist
 mkdir -p public

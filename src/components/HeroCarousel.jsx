@@ -14,7 +14,7 @@ export default function HeroCarousel() {
     {
       image: 'https://images.pexels.com/photos/6647003/pexels-photo-6647003.jpeg?auto=compress&cs=tinysrgb&w=1920',
       title: 'Shaping Policy. Empowering Lives.',
-      subtitle: 'Advocen Initiative brings rigorous research and evidence to policy-making, driving sustainable change across Uganda.'
+      subtitle: 'Advocen Initiatives brings rigorous research and evidence to policy-making, driving sustainable change across Uganda.'
     },
     {
       image: 'https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1920',

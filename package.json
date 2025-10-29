@@ -1,7 +1,7 @@
 {
   "name": "advocen-initiative",
   "version": "1.0.0",
-  "description": "Advocen Initiative - Research and Advocacy for Evidence-Based Policy in Uganda",
+  "description": "Advocen Initiatives - Research and Advocacy for Evidence-Based Policy in Uganda",
   "type": "module",
   "scripts": {
     "dev": "vite",

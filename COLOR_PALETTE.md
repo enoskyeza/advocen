@@ -1,4 +1,4 @@
-# Advocen Initiative - Color Palette Guide
+# Advocen Initiatives - Color Palette Guide
 
 ## Primary Colors
 
@@ -189,5 +189,5 @@ If you want to add CSS variables:
 
 ---
 
-**Advocen Initiative**
+**Advocen Initiatives**
 Making evidence visible through thoughtful design.

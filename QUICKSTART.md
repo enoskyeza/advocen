@@ -1,4 +1,4 @@
-# Quick Start Guide - Advocen Initiative Website
+# Quick Start Guide - Advocen Initiatives Website
 
 ## Setup Instructions
 
@@ -94,4 +94,4 @@ For questions or issues, contact: info@advoceninitiative.org
 
 ---
 
-**Advocen Initiative** - Evidence-Based Policy • Health Law • Inclusive Development
+**Advocen Initiatives** - Evidence-Based Policy • Health Law • Inclusive Development

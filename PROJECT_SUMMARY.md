@@ -1,4 +1,4 @@
-# Advocen Initiative Website - Project Summary
+# Advocen Initiatives Website - Project Summary
 
 ## ✅ Deliverables Completed
 
@@ -35,7 +35,7 @@ advocen/
 
 Professional "Under Maintenance" page featuring:
 
-- ✅ Advocen Initiative logo prominently displayed
+- ✅ Advocen Initiatives logo prominently displayed
 - ✅ Animated maintenance icon with wrench
 - ✅ Company introduction and mission
 - ✅ Six key focus areas displayed in grid:
@@ -205,5 +205,5 @@ The project is structured to easily:
 
 **Delivery Date**: October 28, 2024
 
-**Organization**: Advocen Initiative
+**Organization**: Advocen Initiatives
 **Tagline**: Evidence-Based Policy • Health Law • Inclusive Development
