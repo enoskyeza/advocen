@@ -25,7 +25,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-20 bg-orange-50/80">
+    <section className="py-20 bg-orange-50/80 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Desktop: Side by side layout, Mobile: Stacked */}
         <div className="lg:grid lg:grid-cols-4 lg:gap-12">
