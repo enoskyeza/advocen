@@ -47,7 +47,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 flex-shrink-0 text-gold" />
-                <span className="text-gray-300">info@advocen.org</span>
+                <span className="text-gray-300">advoceninitiatives@gmail.com</span>
               </li>
             </ul>
           </div>

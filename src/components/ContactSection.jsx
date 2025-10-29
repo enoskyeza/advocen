@@ -32,10 +32,7 @@ export default function ContactSection() {
                 <h3 className="text-xl font-bold">Email Us</h3>
               </div>
               <p className="text-gray-700 mb-2">
-                General: info@advocen.org
-              </p>
-              <p className="text-gray-700">
-                Research: research@advocen.org
+                General: advoceninitiatives@gmail.com 
               </p>
             </div>
           </div>
