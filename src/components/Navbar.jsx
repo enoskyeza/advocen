@@ -46,7 +46,7 @@ export default function Navbar() {
               className="h-12 w-12"
             />
             <div>
-              <div className="text-2xl font-bold">Advocen Initiative</div>
+              <div className="text-2xl font-bold">Advocen Initiatives</div>
               <div className="text-xs text-accent">Shaping Policy. Empowering Lives.</div>
             </div>
           </div>

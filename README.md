@@ -1,12 +1,12 @@
-# Advocen Initiative Website
+# Advocen Initiatives Website
 
-A modern, responsive website for Advocen Initiative - a Uganda-based research and advocacy organization.
+A modern, responsive website for Advocen Initiatives - a Uganda-based research and advocacy organization.
 
-## About Advocen Initiative
+## About Advocen Initiatives
 
 ### Who We Are
 
-Advocen Initiative is a Uganda-based research and advocacy organization dedicated to advancing evidence-based policy, health law, and inclusive development.
+Advocen Initiatives is a Uganda-based research and advocacy organization dedicated to advancing evidence-based policy, health law, and inclusive development.
 
 We unite researchers, policy experts, and advocates who believe that sustainable progress begins with credible data, informed debate, and equitable governance.
 
@@ -62,7 +62,7 @@ We conduct research, policy analysis, and advocacy in the following areas:
 
 ### Join Us
 
-At Advocen Initiative, we believe policy can save lives, uplift communities, and protect the planet.
+At Advocen Initiatives, we believe policy can save lives, uplift communities, and protect the planet.
 Whether you're a policymaker, researcher, student, or advocate, your contribution matters.
 Together, we can shape a Uganda where progress is informed, equitable, and sustainable.
 
@@ -175,7 +175,7 @@ Simply build the project and deploy the `dist` folder.
 
 ## License
 
-© 2024 Advocen Initiative. All rights reserved.
+© 2024 Advocen Initiatives. All rights reserved.
 
 ---
 

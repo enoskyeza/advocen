@@ -10,14 +10,14 @@ export default function AboutSection() {
           <div>
             <p className="section-subtitle mb-3">Who We Are</p>
             <h2 className="section-title mb-4">
-              Advancing Evidence-Based Policy for Uganda
+              Advancing Evidence Based Policy for Uganda
             </h2>
           </div>
 
           {/* Right Side - Copy */}
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
             <p>
-              <strong className="text-primary">Advocen Initiative</strong> is a Uganda-based research and advocacy 
+              <strong className="text-primary">Advocen Initiatives</strong> is a Uganda-based research and advocacy 
               organisation dedicated to advancing evidence-based policy, health law and inclusive development across key sectors.
             </p>
             <p>

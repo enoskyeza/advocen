@@ -16,7 +16,7 @@ const MaintenancePage = () => {
           <div className="flex justify-center mb-8">
             <img 
               src="/logo-light.png" 
-              alt="Advocen Initiative Logo" 
+              alt="Advocen Initiatives Logo" 
               className="h-56 sm:h-56 md:h-64 w-auto object-contain drop-shadow-2xl"
             />
           </div>
@@ -78,7 +78,7 @@ const MaintenancePage = () => {
         {/* Footer */}
         <div className="text-center mt-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           <p className="text-accent/90 text-sm">
-            © {new Date().getFullYear()} Advocen Initiative. All rights reserved.
+            © {new Date().getFullYear()} Advocen Initiatives. All rights reserved.
           </p>
           <p className="text-accent/70 text-xs mt-2 mb-4">
             Evidence-Based Policy • Health Law • Inclusive Development

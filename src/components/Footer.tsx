@@ -13,7 +13,7 @@ export default function Footer() {
               className="h-12 w-12"
             />
             <div>
-              <div className="text-xl font-bold">Advocen Initiative</div>
+              <div className="text-xl font-bold">Advocen Initiatives</div>
               <div className="text-[10px] text-accent">Shaping Policy. Empowering Lives.</div>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-600 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Advocen Initiative. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Advocen Initiatives. All rights reserved.</p>
           <div className="mt-2 space-x-4">
             <a href="#" className="hover:text-gold transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-gold transition-colors">Terms of Use</a>
