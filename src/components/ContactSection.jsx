@@ -11,9 +11,8 @@ export default function ContactSection() {
                 <h3 className="text-xl font-bold">Visit Our Office</h3>
               </div>
               <p className="text-gray-700">
-                Plot 123, Kampala Road<br />
-                Kampala, Uganda<br />
-                P.O. Box 12345
+                Kamwokya I, Kampala, Uganda<br />
+                P.O. Box 197800 Kampala
               </p>
             </div>
 
@@ -23,10 +22,7 @@ export default function ContactSection() {
                 <h3 className="text-xl font-bold">Call Us</h3>
               </div>
               <p className="text-white/90 mb-2">
-                Main: +256 XXX XXXXXX
-              </p>
-              <p className="text-white/90">
-                Mobile: +256 XXX XXXXXX
+                +256 752 363 939
               </p>
             </div>
 
@@ -50,7 +46,7 @@ export default function ContactSection() {
             <div className="space-y-4 mb-10 text-gray-700">
               <h2 className="text-3xl font-bold text-[#003366] mb-6">Send Us a Message</h2>
               <p className="text-gray-600 mb-8">
-                Whether you have a question, want to partner with us, or are interested in our research, we'd love to hear from you. Fill out the form and we'll respond within 24-48 hours.
+                Whether you have a question, want to partner with us, or are interested in our research, we&apos;d love to hear from you. Fill out the form and we&apos;ll respond within 24-48 hours.
               </p>
             </div>
 
@@ -78,8 +74,8 @@ export default function ContactSection() {
           <div>
             <div className="w-full h-[320px] sm:h-[380px] lg:h-full min-h-[320px] bg-gray-100">
               <iframe
-                title="Crested Towers Kampala"
-                src="https://www.google.com/maps?q=Crested+Towers,+Kampala,+Uganda&output=embed"
+                title="Kamwokya I Kampala"
+                src="https://www.google.com/maps?q=Kamwokya+I,+Kampala,+Uganda&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

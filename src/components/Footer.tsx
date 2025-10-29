@@ -39,11 +39,11 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-1 flex-shrink-0 text-gold" />
-                <span className="text-gray-300">Kampala, Uganda</span>
+                <span className="text-gray-300">Kamwokya I, Kampala, Uganda<br />P.O. Box 197800 Kampala</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 flex-shrink-0 text-gold" />
-                <span className="text-gray-300">+256 XXX XXXXXX</span>
+                <span className="text-gray-300">+256 752 363 939</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 flex-shrink-0 text-gold" />
