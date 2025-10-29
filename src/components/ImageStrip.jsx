@@ -6,12 +6,12 @@ export default function ImageStrip() {
       alt: 'Research and Development'
     },
     { 
-      url: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Community Engagement'
+      url: '/images/strip/community.jpg',
+      alt: 'Community'
     },
     { 
-      url: 'https://images.pexels.com/photos/5668837/pexels-photo-5668837.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Policy Development'
+      url: '/images/strip/group_photo.png',
+      alt: 'Group Photo'
     },
     { 
       url: 'https://images.pexels.com/photos/8422087/pexels-photo-8422087.jpeg?auto=compress&cs=tinysrgb&w=800',

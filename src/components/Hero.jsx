@@ -64,7 +64,7 @@ export default function Hero() {
             </span>
           </a>
           <a
-            href="#contact"
+            href="/contact"
             className="group relative overflow-hidden bg-transparent border-2 border-white text-white px-8 py-4 text-lg font-semibold transition-all transform hover:scale-105 inline-flex items-center justify-center"
           >
             <span className="absolute inset-0 bg-green-600 transform origin-left scale-x-0 transition-transform duration-700 ease-in-out group-hover:scale-x-100"></span>

@@ -22,7 +22,6 @@ export default function Home() {
         <WhyChooseUs />
         <GetInvolved />
         <FeaturedResearch />
-        {/* Additional sections can be added here later */}
       </main>
       <Footer />
     </div>
