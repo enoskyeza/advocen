@@ -32,7 +32,7 @@ export default function AboutContent() {
         'Masters in International Relations, Makerere University (2010)',
         'BA in Social Sciences, Makerere University (2004)'
       ],
-      email: 'skasyate@gmail.com',
+      email: 'simonkasyate@advocen.org',
       phone: '+256 771 006396'
     },
     {
@@ -52,8 +52,59 @@ export default function AboutContent() {
         'UCE, Seeta High School Green Campus (2015-2018): Division 1 / 11 aggregates'
       ],
       skills: ['Report writing skills', 'Analytical skills', 'Management skills', 'Communication skills', 'Computer skills', 'Leadership skills'],
-      email: 'katusiimedorick@gmail.com',
+      email: 'katusiimedorick@advocen.org',
       phone: '0763308263'
+    },
+    {
+      name: 'Sheba Koreta',
+      title: 'Research and Advocacy Professional',
+      image: 'https://ui-avatars.com/api/?name=Sheba+Koreta&background=1a3a52&color=d4af37&size=300&bold=true',
+      bio: 'A dynamic research and advocacy professional passionate about advancing evidence-based policy and inclusive development in Uganda. At Advocen Initiative, she contributes to projects that bridge the gap between research and actionable policy, focusing on governance, health law, and sustainable community development.',
+      expertise: [
+        'Health Policy and Governance',
+        'Human Rights and Social Inclusion',
+        'Education and Youth Development',
+        'Community Engagement and Public Dialogue',
+        'Data Analysis and Policy Research'
+      ],
+      experience: [
+        'Supporting field research and data collection for policy reports',
+        'Assisting in policy analysis and stakeholder consultations',
+        'Coordinating advocacy campaigns that amplify citizen voices in governance and social policy'
+      ],
+      education: [
+        'Degree in Law',
+        'Advocacy fellowships and professional development workshops'
+      ],
+      email: 'shebakoreta@advocen.org',
+      phone: ''
+    },
+    {
+      name: 'Rosemary Kyompa',
+      title: 'Management & Project Coordination',
+      image: 'https://ui-avatars.com/api/?name=Rosemary+Kyompa&background=1a3a52&color=d4af37&size=300&bold=true',
+      bio: 'A highly dedicated and motivated professional with extensive experience in leadership, advocacy and project management. Rosemary brings highly developed analytical and problem-solving skills, effective communication abilities, and the capacity to work independently or in teams to drive organizational success.',
+      expertise: [
+        'Project Management',
+        'Leadership & Interpersonal Skills',
+        'Public Relations and Advocacy',
+        'Analytical & Strategic Planning',
+        'Community Outreach and Program Development',
+        'Cross-cultural Communication'
+      ],
+      experience: [
+        'Director of Community Outreach, Ruach Social Enterprise: Developed and managed programs to secure key relationships with students, educators, community organizations and local government',
+        'Career Counselor, Reintegration Academy/Prison Education Project: Conducted career and life skills counseling for inmates, achieving 98% success rate across 15 academies',
+        'Casualty Adjuster, Mercury Insurance Group: Investigated and evaluated claims, saving over $500,000 through proactive settlement strategies',
+        'Office Manager, Cal Poly Pomona: Formulated programs, supervised staff, and coordinated campus events and partnerships'
+      ],
+      education: [
+        'Masters of Public Administration, California State Polytechnic University (2013)',
+        'Bachelors of Science in Business Administration (Management, HR, Finance, Real Estate & Law), California State Polytechnic University (2006)'
+      ],
+      skills: ['Microsoft Office Suite', 'Project Management', 'Public Policy', 'Strategic Planning', 'Advocacy', 'Leadership'],
+      email: 'kyomparosemary@advocen.org',
+      phone: '+256 703 579 791'
     }
   ];
 
@@ -154,25 +205,25 @@ export default function AboutContent() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
             {teamMembers.map((member, index) => (
               <div
                 key={index}
                 onClick={() => setSelectedMember(member)}
-                className="bg-beige p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer group"
+                className="bg-beige p-6 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer group"
               >
                 <div className="flex flex-col items-center text-center">
-                  <div className="w-48 h-48 mb-6 overflow-hidden bg-gray-200">
+                  <div className="w-32 h-32 mb-4 overflow-hidden bg-gray-200 rounded-full">
                     <img
                       src={member.image}
                       alt={member.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold text-primary mb-2">{member.name}</h3>
-                  <p className="text-gold font-semibold mb-4">{member.title}</p>
-                  <p className="text-gray-700 leading-relaxed mb-6">{member.bio}</p>
-                  <button className="bg-primary text-white px-6 py-3 font-semibold hover:bg-gold hover:text-primary transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-primary mb-2">{member.name}</h3>
+                  <p className="text-gold font-semibold text-sm mb-3">{member.title}</p>
+                  <p className="text-gray-700 text-sm leading-relaxed mb-4 line-clamp-4">{member.bio}</p>
+                  <button className="bg-primary text-white px-4 py-2 text-sm font-semibold hover:bg-gold hover:text-primary transition-colors duration-300">
                     View Full Profile
                   </button>
                 </div>

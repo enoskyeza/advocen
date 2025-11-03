@@ -34,6 +34,9 @@ export default function ContactSection() {
               <p className="text-gray-700 mb-2">
                 General: advoceninitiatives@gmail.com 
               </p>
+              <p className="text-gray-700 mb-2">
+                Inquiries: inquiries@advocen.org 
+              </p>
             </div>
           </div>
 
