@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Twitter, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -47,7 +47,11 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 flex-shrink-0 text-gold" />
-                <span className="text-gray-300">info@advocen.org</span>
+                <div className="text-gray-300">
+                  <a href="mailto:advoceninitiatives@gmail.com" className="hover:text-gold transition-colors">advoceninitiatives@gmail.com</a>
+                  <br />
+                  <a href="mailto:inquiries@advocen.org" className="hover:text-gold transition-colors">inquiries@advocen.org</a>
+                </div>
               </li>
             </ul>
           </div>
@@ -55,13 +59,10 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1">
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-gold transition-colors">
-                <Facebook className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-gold transition-colors">
+              <a href="https://x.com/advocen29313" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-gold transition-colors" aria-label="Follow us on X (Twitter)">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-gold transition-colors">
+              <a href="https://www.linkedin.com/company/advocen-initiatives/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-gold transition-colors" aria-label="Follow us on LinkedIn">
                 <Linkedin className="h-6 w-6" />
               </a>
             </div>
