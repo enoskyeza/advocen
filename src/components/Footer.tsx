@@ -80,13 +80,13 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-600 mt-8 pt-8 text-center text-sm text-gray-400">
+        <div className="flex justify-between gap-3 md:gap-0 border-t border-gray-600 mt-8 pt-8 text-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Advocen Initiatives. All rights reserved.</p>
-          <div className="mt-2 space-x-4">
+          <div className="space-x-4">
             <a href="#" className="hover:text-gold transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-gold transition-colors">Terms of Use</a>
           </div>
-          <div className="mt-4 text-xs">
+          <div className="text-xs">
             <p>Designed by <a href="https://tamiti.com" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Tamiti Tech Uganda</a></p>
           </div>
         </div>
