@@ -105,6 +105,29 @@ export default function AboutContent() {
       skills: ['Microsoft Office Suite', 'Project Management', 'Public Policy', 'Strategic Planning', 'Advocacy', 'Leadership'],
       email: 'kyomparosemary@advocen.org',
       phone: '+256 703 579 791'
+    },
+    {
+      name: 'Ann',
+      title: 'Finance and Administrative Associate — Advocen Initiative',
+      image: 'https://ui-avatars.com/api/?name=Ann+Last+Name&background=1a3a52&color=d4af37&size=300&bold=true',
+      bio: 'Ann is a results-driven finance and administrative professional with a strong background in organizational management, accounting, and operational efficiency. At Advocen Initiative, she oversees financial planning, budgeting, and internal controls to ensure transparency and accountability across all programs.',
+      expertise: [
+        'Financial planning and budgeting',
+        'Internal controls and accountability',
+        'Organizational management and administration',
+        'Financial reporting and procurement',
+        'Project support and operational efficiency'
+      ],
+      experience: [
+        'Oversees financial planning, budgeting, and internal controls at Advocen Initiative',
+        'Manages day-to-day administrative functions and departmental coordination',
+        'Supports policy implementation and internal procedures',
+        'Contributes to advancing health law, governance, and policy reform through strong financial and administrative systems'
+      ],
+      education: [],
+      skills: ['Accounting', 'Financial reporting', 'Procurement', 'Project support', 'Administration', 'Operational efficiency'],
+      email: 'ann@advocen.org',
+      phone: ''
     }
   ];
 
@@ -260,10 +283,12 @@ export default function AboutContent() {
                       <Mail className="h-5 w-5 text-primary" />
                       <a href={`mailto:${selectedMember.email}`} className="hover:text-primary">{selectedMember.email}</a>
                     </div>
-                    <div className="flex items-center gap-3 text-gray-700">
-                      <Phone className="h-5 w-5 text-primary" />
-                      <span>{selectedMember.phone}</span>
-                    </div>
+                    {selectedMember.phone && (
+                      <div className="flex items-center gap-3 text-gray-700">
+                        <Phone className="h-5 w-5 text-primary" />
+                        <span>{selectedMember.phone}</span>
+                      </div>
+                    )}
                   </div>
                 </div>
 

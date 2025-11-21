@@ -10,8 +10,8 @@ export default function Navbar() {
     { name: 'Home', to: '/', id: 'home' },
     { name: 'About Us', to: '/about-us', id: 'about' },
     { name: 'Research Areas', to: '#', id: 'research' },
-    { name: 'Publications', to: '#', id: 'publications' },
-    { name: 'Insights', to: '#', id: 'insights' },
+    // { name: 'Publications', to: '#', id: 'publications' },
+    // { name: 'Insights', to: '#', id: 'insights' },
   ];
 
 
