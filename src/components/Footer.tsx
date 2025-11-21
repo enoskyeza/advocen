@@ -29,7 +29,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><a href="#" className="text-gray-300 hover:text-gold transition-colors">About Us</a></li>
               <li><a href="#" className="text-gray-300 hover:text-gold transition-colors">Research Areas</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-gold transition-colors">Publications</a></li>
+              {/* <li><a href="#" className="text-gray-300 hover:text-gold transition-colors">Publications</a></li> */}
               <li><a href="#" className="text-gray-300 hover:text-gold transition-colors">Partner With Us</a></li>
             </ul>
           </div>
